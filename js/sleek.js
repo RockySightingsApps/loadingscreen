@@ -72,15 +72,15 @@ function setProgress(progress) {
 }
 
 function setGamemode(gamemode) {
-	$("#gamemode").html(gamemode);
+	$("DarkRP").html(gamemode);
 }
 
 function setMapname(mapname) {
-	$("#map").html(mapname);
+	$("Downtown v2").html(mapname);
 }
 
 function setServerName(servername) {
-	$("#title").html(servername);
+	$("ICE Gaming").html(servername);
 }
 
 function setMusicName(name) {
