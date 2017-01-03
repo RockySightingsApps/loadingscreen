@@ -1,5 +1,4 @@
-// Main Java File
-// Hopefully the loading bar will actually work
+// JavaScript Document
 
 		var iFilesNeeded = 0;
 		var iFilesTotal = 0;
@@ -13,13 +12,11 @@
 			iFilesNeeded = needed;			
 			RefreshFileBox();
 		}
-		
 		function SetFilesTotal( total )
 		{
 			iFilesTotal = total;
 			RefreshFileBox();
 		}
-		
 		function DownloadingFile( filename )
 		{
 			if ( bDownloadingFile )
@@ -31,9 +28,7 @@
 			bCanChangeStatus = false;
 			setTimeout( "bCanChangeStatus = true;", 1000 );
 			bDownloadingFile = true;
-			RefreshFileBox();
 		}
-		
 		function SetStatusChanged( status )
 		{
 			if ( bDownloadingFile )
@@ -45,9 +40,7 @@
 			document.getElementById( "download-item" ).innerHTML = "<p>" + status + "</p>";
 			bCanChangeStatus = false;
 			setTimeout( "bCanChangeStatus = true;", 1000 );
-			RefreshFileBox();
 		}
-		
 		function RefreshFileBox()
 		{
 			iDifference = Math.round(iFilesTotal - iFilesNeeded);
@@ -68,6 +61,3 @@
 			document.getElementById( "s-map" ).innerHTML = mapname;
 			document.getElementById( "s-mode" ).innerHTML = gamemode;
 		}
-		
-// Crystal Load
-// Version 1.6
