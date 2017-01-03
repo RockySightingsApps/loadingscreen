@@ -13,11 +13,11 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "ICE Gaming";
+var l_serverName = "Ice Gaming";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = false;
+var l_bgVideo = true;
 
 /*Video background
 Avaiable options:
@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/glimmering.webm";
+var l_background = "backgrounds/videos/aurora.webm";
 
 /*(Image-background only)
 Place one or more images
